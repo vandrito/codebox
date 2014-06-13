@@ -1,0 +1,32 @@
+<simuspec>
+    <manifest>
+        <name>O3SSIM</name>
+        <symbolicName>O3SSIM</symbolicName>
+        <version>1.0.0</version>
+        <vendor></vendor>
+        <copyright>(c) 2014</copyright>
+        <activator>
+            <class>O3SSIM</class>
+            <library>O3SSIM</library>
+        </activator>
+        <lazyStart>true</lazyStart>
+        <priority>10</priority>
+        <periodic>true</periodic>
+        <period>50</period>
+                <instance>
+             <name>instanceA</name>
+        </instance>
+        <instance>
+             <name> instanceB</name>
+        </instance>
+    </manifest>
+    <code>
+        bin/*.dll,
+        bin/*.pdb,
+        bin/${osName}/${osArch}/*.so,
+        bin/${osName}/${osArch}/*.dylib
+    </code>
+   <files>
+          simulation/*
+   </files>
+</simuspec>

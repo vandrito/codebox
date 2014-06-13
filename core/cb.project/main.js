@@ -21,6 +21,7 @@ var SUPPORTED = [
     require("./gradle"),
     require("./grails"),
     require("./meteor"),
+    require("./o3s_sim"),
 
     // Languages
     require("./c"),

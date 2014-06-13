@@ -1,0 +1,10 @@
+#
+# Makefile for O3SSIM
+#
+target  = O3SSIM
+objects = O3SSIM
+# do not modify after this line
+include $(O3S_BASE)build/rules/global
+target_libs = o3s.platform o3s.util o3s.foundation o3s.core.simulation.subsystem o3s.core.object
+postbuild   = $(SIMU_TOOL) -o. O3SSIM.simuspec
+include $(O3S_BASE)build/rules/dylib
