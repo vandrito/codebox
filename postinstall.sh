@@ -1,4 +1,4 @@
 #!/bin/sh
 
 echo `pwd`
-./node_modules/.bin/grunt
+./node_modules/.bin/grunt build
