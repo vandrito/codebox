@@ -22,6 +22,7 @@ var SUPPORTED = [
     require("./grails"),
     require("./meteor"),
     require("./o3s_sim"),
+    require("./o3s_script"),
 
     // Languages
     require("./c"),

@@ -1,0 +1,23 @@
+<scriptspec>
+    <manifest>
+        <name>O3SSCRIPT</name>
+        <symbolicName>O3SSCRIPT</symbolicName>
+        <fileName>O3SSCRIPT.py</fileName>
+        <language>python_v2.6</language>
+        <version>1.0.0</version>
+        <author></author>
+        <vendor></vendor>
+        <copyright>(c)2014 ...</copyright>
+        <lazyStart>true</lazyStart>
+        <priority>10</priority>
+        <periodic>true</periodic>
+        <period>50</period>
+        <initFunction>init</initFunction>
+        <mainFunction>main</mainFunction>
+        <stopFunction>stop</stopFunction>
+		<instance>
+             <name>O3SSCRIPT_a</name>
+        </instance>
+    </manifest>
+    <code>*.py</code>
+</scriptspec>
